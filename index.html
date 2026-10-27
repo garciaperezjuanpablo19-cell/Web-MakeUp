@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{marca} · Maquillaje</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<div class="telon notranslate" translate="no" aria-hidden="true"><img class="logo-marca" src="assets/logo/AC.png" alt=""><p data-marca-completa></p></div>
+<header class="cabecera">
+<div class="contenedor barra">
+<a class="marca notranslate" translate="no" href="index.html"><img class="logo-marca" src="assets/logo/AC.png" alt=""><span class="marca-nombre" data-marca></span></a>
+<nav>
+<a href="#categorias">Categorías</a>
+<a href="#looks">Looks</a>
+<a href="#sobre">Sobre Angélica</a>
+<a href="#contacto">Contacto</a>
+</nav>
+<div class="acciones"><div class="idiomas notranslate" translate="no"></div><a class="boton" data-whatsapp target="_blank" rel="noopener">Escríbenos</a></div>
+</div>
+</header>
+
+<main>
+<h1 class="solo-lectura" data-marca-completa></h1>
+
+<section class="contenedor carrusel" aria-roledescription="carrusel" aria-label="Novedades">
+<div class="slide s1 activa">
+<img src="media/carrusel/bases-atenea.jpeg" alt="Bases de maquillaje en varios tonos">
+<div class="texto">
+<p class="titular"><span>Tu piel,</span><span>tu tono.</span></p>
+<p class="sub">Bases y correctores para un acabado que se siente tuyo.</p>
+<a class="boton claro" href="categoria.html?c=bases">Ver bases</a>
+</div>
+</div>
+<div class="slide s2">
+<img src="media/carrusel/tonos-base-atenea.jpeg" alt="Muestra de tonos de base sobre la piel">
+<div class="texto">
+<p class="titular"><span>Encuentra</span><span>tu tono.</span></p>
+<p class="sub">Mira los tonos de base y elige el que mejor se adapta a tu piel.</p>
+<a class="boton claro" href="categoria.html?c=bases">Ver bases</a>
+</div>
+</div>
+<div class="slide s3">
+<img src="media/productos/paleta-sombras.jpeg" alt="Paleta de sombras en tonos rosados y neutros">
+<div class="texto">
+<p class="titular"><span>Color con</span><span>intención.</span></p>
+<p class="sub">Sombras en tonos fáciles de combinar para crear tu propio estilo.</p>
+<a class="boton claro" href="categoria.html?c=ojos">Ver sombras</a>
+</div>
+</div>
+<div class="puntos"></div>
+<div class="controles">
+<span class="contador"></span>
+<button class="anterior" aria-label="Anterior"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></button>
+<button class="pausa" aria-label="Pausar"></button>
+<button class="siguiente" aria-label="Siguiente"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button>
+</div>
+</section>
+
+<section id="categorias" class="contenedor seccion">
+<div class="cabeza-seccion">
+<h2>Todo para tu rutina de maquillaje</h2>
+<p class="intro">Elige una categoría y mira todos los productos con sus tonos y detalles.</p>
+</div>
+<div class="categorias"></div>
+</section>
+
+<section id="looks" class="contenedor seccion">
+<div class="cabeza-seccion">
+<h2>Productos y espacio de belleza</h2>
+<p class="intro">Una muestra de productos y del estudio. Las fotos se pueden reemplazar cuando quieras.</p>
+</div>
+<div class="galeria">
+<figure class="look"><img src="media/Local/estudio-angelica-1.jpeg" alt="Vista del estudio de Makeup by Angélica"><figcaption>El estudio</figcaption></figure>
+<figure class="look"><img src="media/productos/paleta-sombras.jpeg" alt="Paleta de sombras en tonos rosados y neutros"><figcaption>Paleta de sombras</figcaption></figure>
+<figure class="look"><img src="media/carrusel/tonos-base-atenea.jpeg" alt="Muestra de tonos de base sobre la piel"><figcaption>Tonos de base</figcaption></figure>
+<figure class="look"><img src="media/productos/polvo-rostro-sandstorm.jpeg" alt="Producto de maquillaje Sand Storm"><figcaption>Maquillaje para el rostro</figcaption></figure>
+<figure class="look"><img src="media/Local/estudio-angelica-2.jpeg" alt="Interior del estudio de Makeup by Angélica"><figcaption>Un espacio para ti</figcaption></figure>
+<figure class="look"><img src="media/carrusel/bases-atenea.jpeg" alt="Productos de base de maquillaje en varios tonos"><figcaption>Bases de maquillaje</figcaption></figure>
+</div>
+</section>
+
+<section id="destacados" class="contenedor seccion">
+<div class="cabeza-seccion">
+<h2>Lo más pedido</h2>
+<p class="intro">Los productos que más eligen nuestras clientas.</p>
+</div>
+<div class="productos destacados"></div>
+</section>
+
+<section id="sobre" class="contenedor seccion sobre">
+<div class="retrato"><img src="media/Local/estudio-angelica-2.jpeg" alt="Interior del estudio de Makeup by Angélica"></div>
+<div class="sobre-texto">
+<h2>Maquillaje que realza lo que ya eres</h2>
+<p>Makeup by Angélica Cardenas nace de una idea sencilla: el maquillaje debe sentirse cómodo, fácil de usar y hecho para tu piel.</p>
+<p>Aquí encuentras cada producto con sus tonos y detalles a la vista, y te acompañamos para que elijas con seguridad.</p>
+<a class="boton" data-whatsapp target="_blank" rel="noopener">Hablemos por WhatsApp</a>
+</div>
+</section>
+
+<section id="contacto" class="contenedor contacto">
+<h2>¿No sabes qué tono elegir?</h2>
+<p>Cuéntanos tu tipo de piel y lo que buscas, y te ayudamos a escoger.</p>
+<a class="boton" data-whatsapp target="_blank" rel="noopener">Escribir por WhatsApp</a>
+</section>
+</main>
+
+<footer class="pie">
+<div class="contenedor pie-grid">
+<div>
+<p class="marca notranslate" translate="no"><img class="logo-marca" src="assets/logo/AC.png" alt=""><span class="marca-nombre" data-marca></span></p>
+<p class="pie-texto">Maquillaje para todos los tonos y todos los estilos.</p>
+</div>
+<div>
+<p class="pie-titulo">Categorías</p>
+<div class="pie-categorias"></div>
+</div>
+<div>
+<p class="pie-titulo">Redes y contacto</p>
+<div class="redes">
+<a class="red-social" data-whatsapp target="_blank" rel="noopener" aria-label="WhatsApp" title="WhatsApp">
+<svg class="icono-red" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M20.52 3.48A11.9 11.9 0 0 0 1.8 17.82L.2 23.7l6.03-1.58A11.9 11.9 0 0 0 20.52 3.48ZM12 21.3a9.3 9.3 0 0 1-4.74-1.3l-.34-.2-3.58.94.95-3.49-.22-.36A9.3 9.3 0 1 1 12 21.3Zm5.1-6.97c-.28-.14-1.66-.82-1.92-.91-.26-.1-.44-.14-.63.14-.18.28-.72.91-.88 1.1-.16.18-.32.2-.6.07-.28-.14-1.18-.44-2.25-1.4-.83-.73-1.4-1.64-1.57-1.92-.16-.28-.02-.43.12-.57.13-.12.28-.32.42-.48.14-.16.19-.28.28-.46.1-.18.05-.35-.02-.49-.07-.14-.63-1.52-.86-2.08-.23-.54-.46-.47-.63-.48h-.54c-.18 0-.48.07-.74.35-.26.28-.97.95-.97 2.32 0 1.36 1 2.68 1.13 2.86.14.18 1.97 3 4.77 4.2.67.28 1.2.45 1.6.57.67.21 1.28.18 1.76.11.54-.08 1.66-.68 1.9-1.33.23-.66.23-1.22.16-1.34-.07-.12-.25-.19-.53-.33Z"/></svg>
+<span>WhatsApp</span>
+</a>
+<a class="red-social" data-instagram target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+<svg class="icono-red" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+<span>Instagram</span>
+</a>
+<a class="red-social" data-facebook target="_blank" rel="noopener" aria-label="Facebook, enlace pendiente de configurar" title="Enlace pendiente de configurar">
+<svg class="icono-red" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5h1.7V3.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.1H7.3V13h2.8v8h3.4Z"/></svg>
+<span>Facebook</span>
+</a>
+<a class="red-social" data-tiktok target="_blank" rel="noopener" aria-label="TikTok, enlace pendiente de configurar" title="Enlace pendiente de configurar">
+<svg class="icono-red" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M19.6 8.3a7.1 7.1 0 0 1-4.2-1.4v7.3a5.4 5.4 0 1 1-4.7-5.3v3.7a1.8 1.8 0 1 0 1.3 1.7V2.5h3.4c.2 2 1.6 3.6 3.6 3.9v1.9h.6Z"/></svg>
+<span>TikTok</span>
+</a>
+</div>
+</div>
+</div>
+<p class="contenedor derechos">© <span data-anio></span> <span class="notranslate" translate="no" data-marca-completa></span></p>
+</footer>
+
+<div id="google_translate_element" class="traductor"></div>
+<script src="js/productos.js"></script>
+<script src="js/principal.js"></script>
+<script src="js/traductor.js"></script>
+<script src="https://translate.google.com/translate_a/element.js?cb=iniciarTraductor"></script>
+</body>
+</html>
